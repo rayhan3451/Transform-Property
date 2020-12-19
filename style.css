@@ -1,0 +1,185 @@
+*{
+ margin: 30px auto;
+
+}
+
+
+h1{
+ text-align: center;
+ text-shadow: 4px 4px 2px rgba(131, 225, 188, 1);
+}
+h3{
+ text-align: center;
+}
+.box-one{
+ width: 250px;
+ height: 250px;
+ background: green;
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-one:hover{
+ transform: translateX(100px);
+}
+
+.box-two{
+ width: 250px;
+ height: 250px;
+ background: red;
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-two:hover{
+ transform: translateY(100px);
+}
+
+.box-three{
+ width: 250px;
+ height: 250px;
+ background: blue;
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-three:hover{
+ transform: scaleX(2);
+}
+
+.box-four{
+ width: 250px;
+ height: 250px;
+ background: darkcyan;
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-four:hover{
+ transform: scaleY(2);
+}
+
+.box-five{
+ width: 250px;
+ height: 250px;
+ background: forestgreen;
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-five:hover{
+ transform: scale(2,4);
+}
+
+.box-six{
+ width: 250px;
+ height: 250px;
+ background: hotpink;
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-six:hover{
+ transform: rotateZ(135deg);
+}
+
+.box-seven{
+ width: 250px;
+ height: 250px;
+ background: rgb(54, 194, 199);
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-seven:hover{
+ transform: rotate(135deg);
+}
+
+.box-eight{
+ width: 250px;
+ height: 250px;
+ background: rgb(182, 54, 199);
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-eight:hover{
+ transform: rotateY(135deg);
+}
+
+.box-nine{
+ width: 250px;
+ height: 250px;
+ background: rgb(80, 173, 36);
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-nine:hover{
+ transform: rotateX(135deg);
+}
+
+.box-ten{
+ width: 250px;
+ height: 250px;
+ background: rgb(214, 62, 42);
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-ten:hover{
+ transform: skewX(45deg);
+}
+
+.box-eleven{
+ width: 250px;
+ height: 250px;
+ background: rgb(42, 96, 214);
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-eleven:hover{
+ transform: skew(45deg);
+}
+
+.box-twelve{
+ width: 250px;
+ height: 250px;
+ background: rgb(194, 42, 214);
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-twelve:hover{
+ transform: skewY(45deg);
+}
+
+.box-thirteen{
+ width: 250px;
+ height: 250px;
+ background: rgb(48, 22, 200);
+ padding: 10px;
+ font-size: 20px;
+ color: white;
+ transition: all 0.5s linear;
+}
+.box-thirteen:hover{
+ transform: skew(35deg,-50deg);
+}
+
+p{
+ margin: 20px;
+}
